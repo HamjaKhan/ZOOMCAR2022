@@ -140,6 +140,10 @@ input3.append(datalist3)
 var br1 = document.createElement("br")
 var btn1 = document.createElement("button")
 btn1.textContent = "CONFIRM"
+btn1.addEventListener("click",myconfirm);
+function myconfirm(){
+    window.location.href="index.html"
+}
 
 div1.append(par1, div2, par2, input3, br1, btn1)
 document.querySelector("#backImage").append(div1)

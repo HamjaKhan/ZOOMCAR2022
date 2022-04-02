@@ -1,7 +1,7 @@
 #backImage{
     height: 650px;
     width: 100%;
-    background-image: url(/image/back.png);
+    background-image: url('https://www.zoomcar.com/img/bg-desktop.png');
 
 }
 #container {
