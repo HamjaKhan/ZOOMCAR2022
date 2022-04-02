@@ -121,6 +121,8 @@ function handleCity(){
     localStorage.setItem("cityValue",b);
 }
 
+    var cityvalue = localStorage.getItem("cityValue") 
+
 
 div2.append(input1, input2)
 var par2 = document.createElement("p")
