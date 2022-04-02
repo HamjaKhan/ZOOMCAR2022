@@ -34,6 +34,7 @@ body{
 #img{
   justify-content: flex-start;
   width: 48%;
+  cursor: pointer;
 }
 #rightnav{
   width: 49%;
