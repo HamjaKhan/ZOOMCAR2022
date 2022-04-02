@@ -47,5 +47,5 @@ var modal = document.getElementById("myModal");
     document.querySelector("#rightnav").addEventListener("click" , myfunbecome)
 
     function myfunbecome () {
-      window.location.href ="/login.html"
+      window.location.href ="login.html"
     }
