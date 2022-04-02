@@ -78,6 +78,33 @@ var modal = document.getElementById("myModal");
       div2.style.width="467px"
       div2.style.height="50px"
     }
+    var div3=document.querySelector("#calender")
+    div3.style.fontSize="18px"
+    div3.style.padding="0px"
+
+    div3.addEventListener("click",funCalender)
+    function funCalender(){
+      window.location.href="calendar-start.html"
+
+    }
+    var startDatesTimes=JSON.parse(localStorage.getItem("startDateTime"))
+    startDatesTimes.map(function(elem){
+
+      document.querySelector("#sdate").innerText=elem.date
+      document.querySelector("#sdate").style.color="black"
+      document.querySelector("#stime").innerText=elem.time
+      document.querySelector("#stime").style.color="black"
+
+    })
+    var endDatesTimes=JSON.parse(localStorage.getItem("endDateTime"))
+    endDatesTimes.map(function(elem){
+      document.querySelector("#edate").innerText=elem.date2
+      document.querySelector("#edate").style.color="black"
+      document.querySelector("#etime").innerText=elem.time2
+      document.querySelector("#etime").style.color="black"
+
+    })
+    
 
 
     var cityvalue = localStorage.getItem("cityValue") 
