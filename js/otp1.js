@@ -24,7 +24,7 @@ let otp;
         let enteredOtp = document.getElementById("otpBox").value;
          if(otp == enteredOtp){
             document.getElementById("errorMsg").textContent = "";
-            window.location.href="https://www.google.co.in/"
+            window.location.href="/index.html"
          }else{
             document.getElementById("errorMsg").textContent = "Invalid OTP";
          }
