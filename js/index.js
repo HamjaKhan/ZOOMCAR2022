@@ -43,3 +43,9 @@ var modal = document.getElementById("myModal");
         modal.style.display = "none";
       }
     }
+
+    document.querySelector("#rightnav").addEventListener("click" , myfunbecome)
+
+    function myfunbecome () {
+      window.location.href ="navbar.html"
+    }

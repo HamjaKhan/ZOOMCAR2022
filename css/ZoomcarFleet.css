@@ -32,6 +32,7 @@ body {
           #img{
               justify-content: flex-start;
               width: 48%;
+              cursor: pointer;
           }
           #rightnav{
               width: 49%;
@@ -138,6 +139,7 @@ body {
       /* line-height: 30px; */
       padding-top: 10px;
       color: black;
+      width: 900px;
     }
     
     p>a {

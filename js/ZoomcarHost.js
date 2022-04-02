@@ -32,3 +32,9 @@ function openCity(evt, cityName) {
         modal.style.display = "none";
       }
     }
+
+    document.querySelector("#img").addEventListener("click" , myfunhome) 
+
+    function myfunhome() {
+      window.location.href = "index.html"
+    }

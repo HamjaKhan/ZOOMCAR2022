@@ -39,3 +39,10 @@ function openCity(evt, cityName) {
     }
 
     document.getElementById("defaultOpen").click();
+
+
+    document.querySelector("#img").addEventListener("click" , myfunhome) 
+
+     function myfunhome() {
+       window.location.href = "index.html"
+     }
