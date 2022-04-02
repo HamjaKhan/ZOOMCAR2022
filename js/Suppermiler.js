@@ -28,3 +28,10 @@ var modal = document.getElementById("myModal");
     function myfunhome() {
       window.location.href = "index.html"
     }
+
+
+    var cityvalue = localStorage.getItem("cityValue") 
+    document.querySelector("#lactionpick").innerText = cityvalue
+    document.querySelector("#lactionpick").style.color = "green"
+   
+

@@ -50,6 +50,7 @@ var modal = document.getElementById("myModal");
       window.location.href ="login.html"
     }
 
+
     document.querySelector("#HOST").addEventListener("click" , myfunhost)
 
     function myfunhost () {
@@ -77,4 +78,9 @@ var modal = document.getElementById("myModal");
       div2.style.width="467px"
       div2.style.height="50px"
     }
+
+
+    var cityvalue = localStorage.getItem("cityValue") 
+    document.querySelector("#lactionpick").innerText = cityvalue
+    document.querySelector("#lactionpick").style.color = "green"
 
