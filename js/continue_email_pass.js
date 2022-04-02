@@ -22,7 +22,7 @@
         userData.forEach(element => {
             if(element.phoneNumber == userNum){
                 if(element.password == userPassword){
-                    window.location.href = "/index.html";
+                    window.location.href = "index.html";
                 }
                 else{
                     alert("wrong password")
