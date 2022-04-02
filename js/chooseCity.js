@@ -1,5 +1,5 @@
 var div1 = document.createElement("div");
-div1.setAttribute("id", "container")
+div1.setAttribute("id", "conttainer")
 // div1.textContent = "I am div"
 var div2 = document.createElement("div");
 div2.setAttribute("id", "box")
