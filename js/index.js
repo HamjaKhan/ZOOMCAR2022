@@ -62,3 +62,19 @@ var modal = document.getElementById("myModal");
     function myfunhos () {
       window.location.href ="ZMS.html"
     }
+
+    var city=localStorage.getItem("CityName")
+
+    if(city.length>=1){
+      var div1=document.querySelector("#greendiv")
+      div1.textContent=city
+      div1.style.color="black"
+      div1.style.fontSize="18px"
+      div1.style.paddingLeft="70px"
+
+      var div2=document.querySelector("#calender")
+      div2.setAttribute("id","calender")
+      div2.style.width="467px"
+      div2.style.height="50px"
+    }
+
