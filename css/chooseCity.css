@@ -1,0 +1,44 @@
+#backImage{
+    height: 650px;
+    width: 100%;
+    background-image: url(/image/back.png);
+
+}
+#container {
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color:white;
+    
+}
+
+p {
+    text-align: center;
+    font-size: 1cm;
+}
+
+#country {
+    height: 50px;
+    width: 260px;
+}
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#lang {
+    height: 50px;
+    width: 280px;
+    margin-left: 550px;
+}
+
+button {
+    background-color: #10A211;
+    color: white;
+    padding: 10px 80px 10px 80px;
+    margin-left: 560px;
+    margin-top: 40px;
+}
