@@ -2,7 +2,7 @@
     document.querySelector("#greendiv").addEventListener("click",funcity)
 
     function funcity(){
-        window.location.href="Pickupcity.html"
+        window.location.href="picupcity.html"
     }
 
 
