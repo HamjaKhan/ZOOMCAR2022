@@ -49,3 +49,8 @@ var modal = document.getElementById("myModal");
     function myfunbecome () {
       window.location.href ="login.html"
     }
+
+
+    var cityvalue = localStorage.getItem("cityValue") 
+    document.querySelector("#lactionpick").innerText = cityvalue
+    document.querySelector("#lactionpick").style.color = "green"
