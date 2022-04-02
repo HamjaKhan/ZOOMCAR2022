@@ -40,4 +40,10 @@ let userName = document.getElementById("username");
     window.location.href = "signUpOtp.html";
     })
 
+    document.querySelector("#SS").addEventListener("click",funSS)
+
+    function funSS(){
+        window.location.href="registered_using_phone.html"
+    }
+
     
