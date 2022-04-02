@@ -44,8 +44,21 @@ var modal = document.getElementById("myModal");
       }
     }
 
-    document.querySelector("#rightnav").addEventListener("click" , myfunbecome)
+    document.querySelector("#loginn").addEventListener("click" , myfunbecome)
 
     function myfunbecome () {
       window.location.href ="login.html"
+    }
+
+    document.querySelector("#HOST").addEventListener("click" , myfunhost)
+
+    function myfunhost () {
+      window.location.href ="navbar.html"
+    }
+
+
+    document.querySelector("#ZMSS").addEventListener("click" , myfunhos)
+
+    function myfunhos () {
+      window.location.href ="ZMS.html"
     }
