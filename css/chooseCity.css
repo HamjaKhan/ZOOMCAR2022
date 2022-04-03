@@ -36,6 +36,7 @@ p {
 #country {
     height: 50px;
     width: 260px;
+    border-radius: 7px;
 }
 #box {
     display: flex;
@@ -47,8 +48,10 @@ p {
 #lang {
     height: 50px;
     width: 280px;
-    margin-left: 1050px;
+    margin-left: 800px;
     margin-bottom: 40px;
+    border-radius: 7px;
+    margin-top: 20px;
 }
 
 button {
@@ -64,7 +67,7 @@ button {
     letter-spacing: 0.8px;
     line-height: 1.14;
     border: none;
-    margin-left: 1080px;
+    margin-left: 810px;
     margin-top: 90px;
     margin-bottom: 100px;
 }
@@ -124,6 +127,10 @@ body{
   border: none;
   font-weight: bold;
   font-size: 20px;
+}
+#top2{
+    margin: auto;
+    margin-left: 300px;
 }
 #backgrnd{
  height: 550px;
