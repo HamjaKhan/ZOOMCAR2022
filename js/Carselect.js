@@ -549,3 +549,24 @@ endDatesTimes.map(function(elem){
   document.querySelector("#etime").style.color="black"
 })
 
+
+
+document.querySelector("#loginn").addEventListener("click" , myfunbecome)
+
+    var namelogin=JSON.parse(localStorage.getItem("currentUser"))
+
+    namelogin.map(function (elem){
+      var name1=elem.name
+
+      var loginsignup=document.querySelector("#loginn")
+
+      if(name1!="")
+      {
+        loginsignup.innerText=name1
+      }
+    })
+
+    function myfunbecome () {
+      window.location.href ="login.html"
+    }
+

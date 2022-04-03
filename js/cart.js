@@ -1,9 +1,10 @@
 
     var cart=JSON.parse(localStorage.getItem("cartcar"))
 
-    var arrcartprice=JSON.parse(localStorage.getItem("cartprice")) || []
+    var arrcartprice=JSON.parse(localStorage.getItem("cartprice"))
 
     cart.map(function(elem){
+         arrcartprice=[]
        var topfirstdiv=document.createElement("div")
        topfirstdiv.setAttribute("id","outer")
 

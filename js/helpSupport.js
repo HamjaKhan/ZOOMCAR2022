@@ -68,3 +68,25 @@ var acc = document.getElementsByClassName("accordion");
     var cityvalue = localStorage.getItem("cityValue") 
     document.querySelector("#lactionpick").innerText = cityvalue
     document.querySelector("#lactionpick").style.color = "green"
+
+
+    document.querySelector("#loginn").addEventListener("click" , myfunbecome)
+
+    var namelogin=JSON.parse(localStorage.getItem("currentUser"))
+
+    namelogin.map(function (elem){
+      var name1=elem.name
+
+      var loginsignup=document.querySelector("#loginn")
+      var sidebarname=document.querySelector("#loginnn")
+      if(name1!="")
+      {
+        loginsignup.innerText=name1
+        sidebarname.innerText=name1
+
+      }
+    })
+
+    function myfunbecome () {
+      window.location.href ="login.html"
+    }
