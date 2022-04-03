@@ -29,7 +29,7 @@
     if(otp == enteredOtp){
             document.getElementById("errorMsg").textContent = "";
             
-            window.location.href="bookingconfirm.html"
+            window.location.href="booking.html"
 }
 else{
             document.getElementById("errorMsg").textContent = "Invalid OTP";
