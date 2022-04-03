@@ -6,18 +6,7 @@
     }
 
 
-    // document.querySelector("#sidebar").addEventListener("click", funside)
-//     // function funside(){
-//     //    document.getElementById("sideleft").style.width="350px"; 
-//     // //    sideleft.stopPropagation()  
-//     // }
-//     document.getElementById("backgrnd").stopPropagation(sideleft)
-
-//    document.querySelector("#navbar").addEventListener("click",funvv)
-
-//    function funvv(){
-//     document.getElementById("sideleft").style.width="0px"; 
-//    }
+    
 
 var modal = document.getElementById("myModal");
     
@@ -45,22 +34,27 @@ var modal = document.getElementById("myModal");
     }
 
     document.querySelector("#loginn").addEventListener("click" , myfunbecome)
+
     var namelogin=JSON.parse(localStorage.getItem("currentUser"))
 
     namelogin.map(function (elem){
       var name1=elem.name
 
       var loginsignup=document.querySelector("#loginn")
-
+      var sidebarname=document.querySelector("#loginnn")
       if(name1!="")
       {
         loginsignup.innerText=name1
+        sidebarname.innerText=name1
+
       }
     })
 
     function myfunbecome () {
       window.location.href ="login.html"
     }
+
+    // document.querySelector("#login").addEventListener("click" , myfunbecome)
 
 
     document.querySelector("#HOST").addEventListener("click" , myfunhost)
@@ -83,7 +77,7 @@ var modal = document.getElementById("myModal");
       div1.textContent=city
       div1.style.color="black"
       div1.style.fontSize="18px"
-      div1.style.paddingLeft="70px"
+      div1.style.paddingLeft="20px"
 
       var div2=document.querySelector("#calender")
       div2.setAttribute("id","calender")
