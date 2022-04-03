@@ -77,6 +77,7 @@ var modal = document.getElementById("myModal");
       div2.setAttribute("id","calender")
       div2.style.width="467px"
       div2.style.height="50px"
+      div2.style.opacity="100%"
     }
     var div3=document.querySelector("#calender")
     div3.style.fontSize="18px"
@@ -102,7 +103,17 @@ var modal = document.getElementById("myModal");
       document.querySelector("#edate").style.color="black"
       document.querySelector("#etime").innerText=elem.time2
       document.querySelector("#etime").style.color="black"
+      document.querySelector("#Findcar").style.backgroundColor="green"
+      document.querySelector("#Findcar").style.color="white"
 
+      var buttoncar=document.querySelector("#Findcar").addEventListener("click",funbtn)
+     
+      function funbtn(){
+        event.preventDefault()
+      
+       window.location.href="carselect.html"
+      }
+  
     })
     
 
@@ -111,3 +122,5 @@ var modal = document.getElementById("myModal");
     document.querySelector("#lactionpick").innerText = cityvalue
     document.querySelector("#lactionpick").style.color = "green"
 
+
+   
