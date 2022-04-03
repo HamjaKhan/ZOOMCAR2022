@@ -90,3 +90,25 @@ p{
 a{
     text-decoration: none;
 }
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#img{
+    justify-content: flex-start;
+    width: 10%;
+  }
+  #offer{
+    width: 38%;
+    height: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    /* margin-top: 40px; */
+}
+#rightnav{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+  }

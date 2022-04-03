@@ -30,15 +30,8 @@ body{
       margin-left: 20px;
       margin-top: 19px;
 }
-#img{
-  justify-content: flex-start;
-  width: 48%;
-}
-#rightnav{
-  width: 49%;
-  display: flex;
-  justify-content: space-around;
-}
+
+
 #rightnav>button{
   color: white;
   background-color: black;
@@ -48,14 +41,7 @@ body{
 }
 
 
-#offer{
-    width: 50%;
-    height: 700px;
-    /* border: 1px solid red; */
-    margin: auto;
-    box-sizing: border-box;
-    /* margin-top: 40px; */
-}
+
 
 .box1{
     width: 100%;
@@ -89,4 +75,23 @@ p{
 }
 a{
     text-decoration: none;
+    color: white;
+    font-weight: 600;
 }
+#img{
+    justify-content: flex-start;
+    width: 10%;
+  }
+  #offer{
+    width: 38%;
+    height: 700px;
+    margin: auto;
+    box-sizing: border-box;
+    /* margin-top: 40px; */
+}
+#rightnav{
+    width: 49%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 700px;
+  }
