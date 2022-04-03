@@ -247,6 +247,7 @@
             color: gray;
             font-size: 12px;
             margin-bottom: 20px;
+            line-height: 14px;
         }
         #anchor{
             text-decoration: underline;
@@ -280,6 +281,7 @@
             color: gray;
             font-size: 12px;
             margin-bottom: 20px;
+        
         }
 
 
@@ -315,6 +317,7 @@
             color: gray;
             font-size: 12px;
             margin-bottom: 20px;
+            line-height: 14px;
         }
         #divd3checkbox{
             margin-left: 200px;
@@ -322,7 +325,7 @@
 
         #divdown{
             margin: auto;
-            width: 700px;
+            width: 540px;
             height: 100px;
             margin-top: 230px;
             position: fixed;
@@ -360,9 +363,9 @@
             left: 50%;
             transform: translate(-50%,-50%)scale(0.1);
             border-radius: 15px;
-            padding: 20px;
+            padding:20px;
             visibility: hidden;
-            transition: transform 0.4s, top 0.4s;
+            transition:transform 0.4s, top 0.4s;
         }
         .popdiv h2{
             margin-top: 20px;
