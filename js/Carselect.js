@@ -527,5 +527,20 @@ var select=arr.filter(function(elem){
 display(select)
 }
 
+var startDatesTimes=JSON.parse(localStorage.getItem("startDateTime"))
+startDatesTimes.map(function(elem){
 
+  document.querySelector("#sdate").innerText=elem.date
+  document.querySelector("#sdate").style.color="black"
+  document.querySelector("#stime").innerText=elem.time
+  document.querySelector("#stime").style.color="black"
+
+})
+var endDatesTimes=JSON.parse(localStorage.getItem("endDateTime"))
+endDatesTimes.map(function(elem){
+  document.querySelector("#edate").innerText=elem.date2
+  document.querySelector("#edate").style.color="black"
+  document.querySelector("#etime").innerText=elem.time2
+  document.querySelector("#etime").style.color="black"
+})
 
