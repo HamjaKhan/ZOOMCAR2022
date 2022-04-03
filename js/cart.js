@@ -394,7 +394,7 @@
                    var popselfpick=document.querySelector("#popdivspa").addEventListener("click",funself)
 
                    function funself(){
-                      window.location.href="cartrecipt.html"
+                      window.location.href="carrecipt.html"
                    }
 
          
