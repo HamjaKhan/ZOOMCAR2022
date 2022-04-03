@@ -57,6 +57,10 @@
          {
              var Aa=document.getElementById("btnlower")
              Aa.style.backgroundColor="green"
+             document.querySelector("#lowerbtn").addEventListener("click",funbtn)
+             function funbtn(){
+                 window.location.href="otp.html"
+             }
          }
          else{
             document.getElementById("btnlower").style.backgroundColor= "#e0e0e0";

@@ -97,7 +97,7 @@
 
 
                 
-                window.location.href="otp.html"
+                window.location.href="selectpaymentmethod.html"
             }
 
             document.querySelector("#container").append(divout1,divout2,divout3,divout4,divout5,divout6,divout7,divout8,divout9,btn)
