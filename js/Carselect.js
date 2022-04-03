@@ -313,11 +313,12 @@ display(arr)
 
 
 function display(arr){
-    var cartcar=[]
+    // var cartcar=[]
 
     document.querySelector("#rightdivvvv").innerHTML=""
 
     arr.map(function(elem){
+          var cartcar=[]
     var outsidediv = document.createElement("div")
     outsidediv.setAttribute("id","outsidediv")
 
@@ -526,6 +527,10 @@ var select=arr.filter(function(elem){
     
 display(select)
 }
+
+
+
+
 
 var startDatesTimes=JSON.parse(localStorage.getItem("startDateTime"))
 startDatesTimes.map(function(elem){
