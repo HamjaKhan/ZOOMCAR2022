@@ -6,7 +6,20 @@
     }
 
 
-    
+    var cityvalue = localStorage.getItem("cityValue") 
+    if (cityvalue==="")
+    {
+      document.querySelector("#lactionpick").innerText = ""
+    }
+    else{
+
+      document.querySelector("#lactionpick").innerText = cityvalue
+      document.querySelector("#lactionpick").style.color = "green"
+    }
+
+
+
+
 
 var modal = document.getElementById("myModal");
     
@@ -36,7 +49,6 @@ var modal = document.getElementById("myModal");
     document.querySelector("#loginn").addEventListener("click" , myfunbecome)
 
     var namelogin=JSON.parse(localStorage.getItem("currentUser"))
-
     namelogin.map(function (elem){
       var name1=elem.name
 
@@ -50,6 +62,7 @@ var modal = document.getElementById("myModal");
       }
     })
 
+   
     function myfunbecome () {
       window.location.href ="login.html"
     }
@@ -57,16 +70,6 @@ var modal = document.getElementById("myModal");
     // document.querySelector("#login").addEventListener("click" , myfunbecome)
 
 
-    document.querySelector("#HOST").addEventListener("click" , myfunhost)
-
-    
-
-
-    document.querySelector("#ZMSS").addEventListener("click" , myfunhos)
-
-    function myfunhos () {
-      window.location.href ="ZMS.html"
-    }
 
     var city=localStorage.getItem("CityName")
 
@@ -121,10 +124,8 @@ var modal = document.getElementById("myModal");
     })
     
 
+    
 
-    var cityvalue = localStorage.getItem("cityValue") 
-    document.querySelector("#lactionpick").innerText = cityvalue
-    document.querySelector("#lactionpick").style.color = "green"
 
 
     // function myfunhost () {

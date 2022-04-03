@@ -21,7 +21,7 @@ body{
 }
 #conttainer {
     position: fixed;
-    height: auto;
+    height: 500px;
     width: 100%;
     background-color:white;
     margin: auto;
@@ -48,10 +48,10 @@ p {
 #lang {
     height: 50px;
     width: 280px;
-    margin-left: 800px;
-    margin-bottom: 40px;
+    margin-left: 540px;
+    /* margin-bottom: 10px; */
     border-radius: 7px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 button {
@@ -67,8 +67,8 @@ button {
     letter-spacing: 0.8px;
     line-height: 1.14;
     border: none;
-    margin-left: 810px;
-    margin-top: 90px;
+    margin-left: 560px;
+    margin-top: 40px;
     margin-bottom: 100px;
 }
 
