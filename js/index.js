@@ -59,9 +59,7 @@ var modal = document.getElementById("myModal");
 
     document.querySelector("#HOST").addEventListener("click" , myfunhost)
 
-    function myfunhost () {
-      window.location.href ="navbar.html"
-    }
+    
 
 
     document.querySelector("#ZMSS").addEventListener("click" , myfunhos)
@@ -129,4 +127,6 @@ var modal = document.getElementById("myModal");
     document.querySelector("#lactionpick").style.color = "green"
 
 
-   
+    // function myfunhost () {
+    //   window.location.href ="navbar.html"
+    // }
