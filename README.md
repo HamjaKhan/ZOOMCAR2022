@@ -7,6 +7,7 @@ Zoomcar is a Rental portal for self driving cars. It works on the principle of â
  - [KaustubhBadve](https://github.com/KaustubhBadve)
  - [Shubham Kumar](https://github.com/alluShubham)
 - [Ashutosh Dash](https://github.com/ashutoshdash9878)
+- [Mohd. Hamja Khan](https://github.com/HamjaKhan)
 - [Shobhitha Vijay](https://github.com/Shobhitha533)
 
 ## ZoomCar clone use for below functions
