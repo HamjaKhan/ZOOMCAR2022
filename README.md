@@ -30,6 +30,50 @@ Zoomcar is a Rental portal for self driving cars. It works on the principle of â
 - It is easy to navigate.
 
 
+## Location
+
+<img width="952" alt="Location" src="https://user-images.githubusercontent.com/101566029/185655650-ef5f1b77-b66f-4891-a2ab-dbe5ac8e639a.png">
+
+- We have different options like country, state, and languag.
+- Users can select the option according to their convenience.
+
+
+## Sign in or login
+
+<img width="950" alt="login" src="https://user-images.githubusercontent.com/101566029/185655844-3d4dc80c-a530-4bd9-ac9e-ec551e78e30c.png">
+
+- This is the sign-login page in the window at the top when the user clicks the button it will take you to that page.
+- Users can sign in either by email or mobile number and it will ask for OTP which is secure to use.
+
+
+## SideBar
+
+<img width="962" alt="Side bar" src="https://user-images.githubusercontent.com/101566029/185656008-a8325783-9bb5-4677-9b20-73dbf17081ee.png">
+
+- This is the sidebar button when you click on that there are different options.
+- There are options like log in or sign up, change the city, super miler club, Zoomcar fleet, host vehicle policies, and Help support.
+
+
+## Become a host
+
+<img width="951" alt="Become a Host" src="https://user-images.githubusercontent.com/101566029/185656165-0ad1fbd5-986f-4951-b614-2464b5258e43.png">
+
+- If anyone wants to join Zoomcar and earn, they need to share their car and sign up with the host.
+- Users can also refer to the offer and earn.
+
+
+## Procedures for Booking:
+- Users need to select cities and then they need to select the start and end time and date of the trip.
+<img width="964" alt="Process to book" src="https://user-images.githubusercontent.com/101566029/185657319-cb1e9339-4aa7-41e6-84cb-97f1540efd61.png">
+
+- After selecting the city and trip users need to select the car according to their convenience, and what type of car they want.
+<img width="960" alt="car deatils" src="https://user-images.githubusercontent.com/101566029/185657601-93087c1f-df69-449b-8166-c7be04044611.png">
+
+
+- Booking confirmed
+<img width="956" alt="booking confirmation" src="https://user-images.githubusercontent.com/101566029/185658075-dc61bfd4-4d00-426e-81b3-7abe1b30f27e.png">
+
+
 
 
 ## Problems faced and Solution Resolved
@@ -42,17 +86,3 @@ The first we have done is going through the website and then we planned and deci
 ## Mastering
 
 we learned a lot of things in this project, this helps us to deepen our knowledge and understanding of issues. we were exposed to a variety of perspectives. And improved our vocabulary. we learned how to teach and manage personalities. and learned to listen to other suggestions which may be better than ours and also learn how to work with them.
-
-
-
-
-
-
-
-# ZOOMCAR2022
-
-git hub : https://github.com/HamjaKhan/ZOOMCAR2022.git
-
-blog link :  https://medium.com/@Shobhitha_Vijay/collaborative-project-at-masai-school-zoomcar-2059dccb6d4c
-
-netlify link : https://melodious-pastelito-e998c8.netlify.app
