@@ -21,6 +21,7 @@ Zoomcar is a Rental portal for self driving cars. It works on the principle of â
 - HTML
 - CSS
 - JavaScript
+- Local Storage
 
 ## Home page
 
