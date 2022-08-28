@@ -14,7 +14,7 @@ Zoomcar is a Rental portal for self driving cars. It works on the principle of â
 - User can Login and Signup.
 - User can book the car.
 - User can connect with customer care.
-- User can check all policy of the web site.
+- User can check all policies of the web site.
 - User can pay the booking amount. 
 
 ## Tech Stack
