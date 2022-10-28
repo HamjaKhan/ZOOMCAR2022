@@ -4,7 +4,7 @@ Zoomcar is a Rental portal for self driving cars. It works on the principle of â
 
 ## Collaborators (Masai school's Student)
  - [Chandan Kumar Sharma](https://github.com/chandan0531)
- - [KaustubhBadve](https://github.com/KaustubhBadve)
+ - [Kaustubh Badve](https://github.com/KaustubhBadve)
  - [Shubham Kumar](https://github.com/alluShubham)
 - [Ashutosh Dash](https://github.com/ashutoshdash9878)
 - [Mohd. Hamja Khan](https://github.com/HamjaKhan)
